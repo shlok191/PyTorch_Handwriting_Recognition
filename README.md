@@ -9,7 +9,7 @@ The model implemented follows a straightfowrard structure as shown below:
 1. nn.Linear(784, 128) --> Accepts all pixels of the 28*28 images flattened out to 784 pixels and processes them to 128 feature values
 2. nn.ReLU layer --> Introduces non-linearity to allow for more complex mathematical equations and higher accuracy of model
 3. nn.Linear(128, 64) --> Further processes the 128 feature values resulting from first layer and processes them to 64 feature values
-4. nn.ReLU layer --> Introduces non-linearity in mathematical equations once more. The 2nd layer allows for processing of higher level structures including curves in digits like 9.
+4. nn.ReLU layer --> Introduces non-linearity in mathematical equations once more. The 2nd layer allows for processing of higher level structures including curves in digits like **9**.
 5. nn.Linear(64, 10) --> Processes the final 64 feature values into 10 labels corresponding to the 10 digits of the numerical system.
 
 This was an incredibly straightforward, yet exciting project that allowed me to explore PyTorch and get a fresh start into Machine Learning! The finally trained model achieved a final accuracy of 98.7%. The high accuracy can be largely attributed to the large database provided by MNIST and a total training time spanning 50 epochs, along with the simplicity of this particular project! 
